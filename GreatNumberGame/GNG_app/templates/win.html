@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<div class="container result r2">
+    <form action="/" method="post">
+        {% csrf_token %}
+        <h2 class="c1"> {{ result }}</h2>
+        <div class="mt-3">
+            <button type="submit" class="butn">play again</button>
+        </div>
+    </form>
+</div>
+
+
+{% endblock %}

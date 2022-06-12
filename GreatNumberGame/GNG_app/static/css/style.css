@@ -1,0 +1,21 @@
+.butn {
+    border: 1px solid black;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 3px 3px 3px rgb(46, 45, 45);
+}
+
+.result {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.c1 {color: white; font-weight: 700;}
+
+.r2 {
+    background-color: green;
+}
